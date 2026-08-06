@@ -1,0 +1,14 @@
+:root {
+  --btn-primary-width: 200px;
+}
+
+.btn-primary {
+  background: var(--bs-indigo);
+  border-color: var(--bs-indigo);
+  width: var(--btn-primary-width);
+}
+
+.accordion-button::before,
+.accordion-button:not(.collapsed)::before {
+
+}
